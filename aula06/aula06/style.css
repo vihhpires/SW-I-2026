@@ -1,0 +1,70 @@
+/* FORMULARIO DA SCAT LUIZA */
+.bodyformulario {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 179, 204);
+}
+
+.titulorestrito{
+    color: blue;
+    font-size: 50px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prestrito{
+    color: rgb(75, 15, 131);
+    font-size: 30px;
+    background-color: rgb(255, 80, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bodyrestrito{
+    background-color: rgb(225, 194, 255);
+    display:list-item;
+}
+
+/* 
+PARTE DE PERSONAGENS: */
+
+body {
+  background: linear-gradient(135deg, #1e1e2f, #2a2a4f);
+  color: white;
+}
+
+.container img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+
+  animation: flutuar 4s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.container img {
+  border: 3px solid transparent;
+  background: linear-gradient(pink);
+  padding: 3px;
+}
+
+.container img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+p {
+  margin-top: 10px;
+  font-weight: bold;
+}
